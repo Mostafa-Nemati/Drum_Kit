@@ -1,0 +1,19 @@
+
+$FontFamily: sans-serif;
+$FontSize: 18px;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: $FontFamily;
+    font-size: $FontSize;
+}
+main {
+    background-image: url(../images/drum-kit.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
